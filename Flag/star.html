@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star</title>
+    <style>
+        .star{
+            position: absolute;
+            background-color: black;
+            height: 100px;
+            width: 2px;
+        }
+
+        .star2{
+            position: absolute;
+            background-color: black;
+            height: 50px;
+            width: 2px;
+        }
+
+        @media(max-width:900px) {
+            .t2{
+                display: none;
+            }
+            .t3{
+                display: none;
+            }
+            .star_1{
+                display: none;
+            }
+            .star_2{
+                display: none;
+            }
+        }
+
+        @media(min-width:800px) {
+            .t1{
+                display: none;
+            }
+            .t3{
+                display: none;
+            }
+            .star_1{
+                display: none;
+            }
+            .star_2{
+                display: none;
+            }
+        }
+
+        @media(min-width:700px) {
+            .t1{
+                display: none;
+            }
+            .t2{
+                display: none;
+            }
+            .star_1{
+                display: none;
+            }
+            .star_2{
+                display: none;
+            }
+        }
+
+        @media(min-width:600px) {
+            .t1{
+                display: none;
+            }
+            .t2{
+                display: none;
+            }
+            .t3{
+                display: none;
+            }
+            .star_2{
+                display: none;
+            }
+        }
+
+        @media(min-width:500px) {
+            .t1{
+                display: none;
+            }
+            .t2{
+                display: none;
+            }
+            .t3{
+                display: none;
+            }
+            .star_1{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="star_1" style="position: relative ;">
+        <div class="star" style="rotate: 30deg; left: 100px;"></div>
+        <div class="star" style="rotate: -30deg; left: 150px;"></div>
+        <div class="star" style="rotate: 90deg; left: 125px; top: 42.5px;"></div>
+        <div class="star" style="rotate: -30deg; left: 100px; top: 30px;"></div>
+        <div class="star" style="rotate: 30deg; left: 150px; top: 30px;"></div>
+        <div class="star" style="rotate: 90deg; left: 125px; top: -12.5px;"></div>
+    </div>
+
+    <div class="star_2" style="position: relative ;">
+        <div class="star2" style="rotate: 18deg; left: 100px;"></div>
+        <div class="star2" style="rotate: -18deg; left: 116px;"></div>
+        <div class="star2" style="rotate: 90deg; left: 149px; top:23px;"></div>
+        <div class="star2" style="rotate: 54deg; left: 154px; top: 38px;"></div>
+        <div class="star2" style="rotate: 90deg; left: 68px; top:23px;"></div>
+        <div class="star2" style="rotate: -54deg; left: 64px; top: 38px;"></div>
+        <div class="star2" style="rotate: 18deg; left: 76px; top: 76px;"></div>
+        <div class="star2" style="rotate: -18deg; left: 141px; top: 76px;"></div>
+        <div class="star2" style="rotate: 54deg; left: 90px; top: 84px;"></div>
+        <div class="star2" style="rotate: -54deg; left: 129px; top: 84px;"></div>
+    </div>
+
+    <div class="t1" style="position: relative ;">
+        <div class="star" style="rotate: 30deg; left: 100px;"></div>
+    </div>
+    <div class="t2" style="position: relative ;">
+        <div class="star" style="rotate: 30deg; left: 100px;"></div>
+        <div class="star" style="rotate: -30deg; left: 150px;"></div>
+    </div>
+    <div class="t3" style="position: relative ;">
+        <div class="star" style="rotate: 30deg; left: 100px;"></div>
+        <div class="star" style="rotate: -30deg; left: 150px;"></div>
+        <div class="star" style="rotate: 90deg; left: 125px; top: 42.5px;"></div>
+    </div>
+    </div>
+</body>
+</html>
